@@ -25,7 +25,7 @@
 
 | 大カテゴリ | 中カテゴリ | 小カテゴリ | リポジトリ名 | 内容 |
 | :--- | :--- | :--- | :--- | :--- |
-| **ユニット** | **言語** | **C#** | [unit-lang-cs](./unit-lang-cs) | C#のCUIやWindows Formなど。 |
+| **ユニット** | **言語** | **C#** | [unit-lang-cs](https://github.com/kaz-it-log/unit-lang-cs) | C#のCUIやWindows Formなど。 |
 
 ---
 
