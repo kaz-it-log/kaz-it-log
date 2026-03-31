@@ -1,16 +1,34 @@
-## Hi there 👋
+# 🏛 Kaz's ItoLog (技術資産リポジトリ)
 
-<!--
-**kaz-it-log/kaz-it-log** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+フリーランスエンジニア **Kaz** の技術ノート兼、プログラム資産置き場です。
+設計の考え方や、再利用可能なコード（C#/Java等）を体系的に蓄積しています。
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 共通ルール（全リポジトリ共通）
+
+履歴をきれいに保ち、後で検索しやすくするために以下のルールで運用しています。
+
+### コミットメッセージの書き方
+`[プレフィックス]: [やったこと]（[なぜやったか]）`
+
+| プレフィックス | 意味（使い分け） | 書き方の例 |
+| :--- | :--- | :--- |
+| **feat:** | **新しい追加**<br>クラス、ファイル、サンプルコードを足した時。 | `feat: 共通関数を追加（再利用のため）` |
+| **fix:** | **直し**<br>バグ、タイポ、間違いを直した時。 | `fix: 計算ロジックのミスを修正` |
+| **refactor:** | **整理**<br>動きは変えず、コードを読みやすく書き換えた時。 | `refactor: メソッドを分割して整理` |
+| **docs:** | **説明書き**<br>READMEやソース内の解説コメントを書いた時。 | `docs: 使い方をREADMEに追記` |
+
+---
+
+## 📂 リポジトリ一覧
+
+| 大カテゴリ | 中カテゴリ | 小カテゴリ | リポジトリ名 | 内容 |
+| :--- | :--- | :--- | :--- | :--- |
+| **ユニット** | **言語** | **C#** | [unit-lang-cs](./unit-lang-cs) | C#のCUIやWindows Formなど。 |
+
+---
+
+## 📫 連絡先
+- **サイト:** [ItoLog（https://itolog.moo.jp/）]
+- **得意分野:** C# / Java / システム設計
