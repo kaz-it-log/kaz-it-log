@@ -29,6 +29,25 @@
 
 ---
 
+## 📂 ItoLog リポジトリの命名規則
+全リポジトリは、以下の [粒度] - [対象] - [詳細] の組み合わせで命名・管理しています。
+
+### 1. 大カテゴリ
+- **ユニット unit** : 単体で完結する機能、コマンド
+
+[//]: # (フロー flow : 複数の部品をつなぐ一連の処理フロー)
+
+### 2. 中カテゴリ
+- **lang (言語)** : C#, Java, etc...
+
+[//]: # (os OS : Linux, Windows, etc...)
+[//]: # (virtual 仮想化 : Docker, WSL2, etc...)
+[//]: # (db DB : PostgreSQL, SQLite, etc...)
+[//]: # (service サービス : Jenkins, Tomcat, etc...)
+[//]: # (other その他 : 環境構築, 文書ツール, etc...)
+
+---
+
 ## 📫 連絡先
 - **サイト:** [ItoLog（https://itolog.moo.jp/）]
 - **得意分野:** C# / Java / システム設計
