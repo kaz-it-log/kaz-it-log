@@ -20,6 +20,60 @@
 | **fix:** | **直し**<br>バグ、タイポ、間違いを直した時。 | `fix: 計算ロジックのミスを修正` |
 | **refactor:** | **整理**<br>動きは変えず、コードを読みやすく書き換えた時。 | `refactor: メソッドを分割して整理` |
 | **docs:** | **説明書き**<br>READMEやソース内の解説コメントを書いた時。 | `docs: 使い方をREADMEに追記` |
+---
+
+## 🚀 Git 基本操作 (1人作業用)
+
+### ■ 1. 最新化
+```bash
+# mainブランチに移動
+git switch main
+
+# リモートの最新状態を取り込む
+git pull
+```
+
+### ■ 2. 作業開始（ブランチ作成～コミット）
+```bash
+# 新規作成(-c)して切り替え (feature/1231、feature/1231_2、feature/1231_xxx)
+git switch -c feature/9999
+
+# 変更内容の確認（add前）
+git diff
+
+# 全てステージング
+git add .
+
+# コミット内容の最終確認（commit前）
+git diff --cached
+
+# コミット (feat/fix/refactor/docs: [やったこと] ([なぜやったか]))
+git commit -m "feat: 〇〇を実装"
+```
+　
+### ■ 3. mainへ反映（マージ～プッシュ）
+```bash
+# mainブランチに戻る
+git switch main
+
+# 作業「ログを1つにまとめて(--squash)」マージ（途中のミスを消す）
+git merge --squash feature/xxxx
+
+# mainに確定ログを記録（ルールに沿ったメッセージ）
+git commit -m "feat: 〇〇機能を追加"
+
+# リモートへ反映
+git push origin HEAD
+```
+
+### ■ 4. 不要ブランチ削除
+```bash
+# 役割を終えたブランチを削除
+git branch -d feature/xxxx
+
+# 現在のブランチ状態を確認
+git branch
+```
 
 ---
 
