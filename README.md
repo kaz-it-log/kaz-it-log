@@ -38,7 +38,10 @@ git pull
 # 新規作成(-c)して切り替え (feature/1231、feature/1231_2、feature/1231_xxx)
 git switch -c feature/9999
 
-# 変更内容の確認（add前）
+# 変更内容の確認（新規フォルダ名）
+git status
+
+# 変更内容の確認（変更ファイルの差分）
 git diff
 
 # 全てステージング
