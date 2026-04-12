@@ -82,9 +82,23 @@ git branch
 
 ## 📂 リポジトリ一覧
 
-| 大カテゴリ | 中カテゴリ | 小カテゴリ | リポジトリ名 | 内容 |
-| :--- | :--- | :--- | :--- | :--- |
-| **ユニット** | **言語** | **C#** | [unit-lang-cs](https://github.com/kaz-it-log/unit-lang-cs) | C#のCUIやWindows Formなど。 |
+| 大カテゴリ | 中カテゴリ | 小カテゴリ         | リポジトリ名                                                       | 内容                        |
+| :--------- | :--------- | :----------------- | :----------------------------------------------------------------- | :-------------------------- |
+| **ユニット** | **言語** | **C++**          | [unit-lang-cpp](https://github.com/kaz-it-log/unit-lang-cpp)       | C++のCUIやWin32APIなど。    |
+| **ユニット** | **言語** | **C#**           | [unit-lang-cs](https://github.com/kaz-it-log/unit-lang-cs)         | C#のCUIやWindows Formなど。 |
+| **ユニット** | **言語** | **Java**         | [unit-lang-java](https://github.com/kaz-it-log/unit-lang-java)     | JavaのCUIやJavaEEなど。     |
+| **ユニット** | **言語** | **Go**           | [unit-lang-go](https://github.com/kaz-it-log/unit-lang-go)         | GoのCUIなど。               |
+| **ユニット** | **言語** | **Rust**         | [unit-lang-rust](https://github.com/kaz-it-log/unit-lang-rust)     | RustのCUIなど。             |
+| **ユニット** | **言語** | **Python**       | [unit-lang-python](https://github.com/kaz-it-log/unit-lang-python) | PythonのCUIやPysideなど。   |
+| **ユニット** | **言語** | **PHP**           | [unit-lang-php](https://github.com/kaz-it-log/unit-lang-php)      | PHPのCUIなど。              |
+| **ユニット** | **言語** | **JavaScript**   | [unit-lang-js](https://github.com/kaz-it-log/unit-lang-js)         | JavaScriptのCUIやGUIなど。 |
+| **ユニット** | **言語** | **TypeScript**   | [unit-lang-ts](https://github.com/kaz-it-log/unit-lang-ts)         | TypeScriptのCUIやGUIなど。 |
+| **ユニット** | **言語** | **Dart**          | [unit-lang-dart](https://github.com/kaz-it-log/unit-lang-dart)     | DartのCUIやFlutterなど。   |
+| **ユニット** | **言語** | **Front**         | [unit-lang-front](https://github.com/kaz-it-log/unit-lang-front)   | FrontのHTMLやCSSなど。     |
+| **ユニット** | **DB** | **Oracle**          | [unit-db-oracle](https://github.com/kaz-it-log/unit-db-oracle)     | OracleのDDLやDMLなど。     |
+| **ユニット** | **DB** | **MySQL**           | [unit-db-mysql](https://github.com/kaz-it-log/unit-db-mysql)       | MySQLのDDLやDMLなど。      |
+| **ユニット** | **DB** | **PostgreSQL**     | [unit-db-postgres](https://github.com/kaz-it-log/unit-db-postgres) | PostgreSQLのDDLやDMLなど。  |
+| **ユニット** | **DB** | **SQLite**         | [unit-db-sqlite](https://github.com/kaz-it-log/unit-db-sqlite)     | SQLiteのDDLやDMLなど。      |
 
 ---
 
